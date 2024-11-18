@@ -151,7 +151,7 @@ class Ui_MainWindow(object):
         item.setText(_translate("MainWindow", "Nombre Producto"))
         item = self.TablaFacturas.horizontalHeaderItem(2)
         item.setText(_translate("MainWindow", "Valor Producto"))
-from iconos import iconos_rc
+from DesignVentanas.iconos import iconos_rc
 
 
 if __name__ == "__main__":

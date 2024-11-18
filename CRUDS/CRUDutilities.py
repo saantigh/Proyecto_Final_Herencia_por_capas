@@ -1,6 +1,9 @@
+from CRUDS.CRUDCliente import CRUDCLiente
+
 class CRUD:
     def __init__(self):
-        self.clientes = [] #Inicializa la lista de clientes en el sistema
+        clientes_por_defecto = CRUDCLiente()
+        self.clientes = clientes_por_defecto.create() #Inicializa la lista de clientes en el sistema
 
     def agregar_cliente(self, cliente):
         self.clientes.append(cliente) 

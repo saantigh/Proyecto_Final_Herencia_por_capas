@@ -99,7 +99,7 @@ class Ui_MainWindow(object):
         self.BotonSalir.setText(_translate("MainWindow", "SALIR"))
         self.labelBienvenida.setText(_translate("MainWindow", "BIENVENIDO"))
         self.labelBienvenida_2.setText(_translate("MainWindow", "TIENDA AGRICOLA"))
-from iconos import iconos_rc
+from DesignVentanas.iconos import iconos_rc
 
 
 if __name__ == "__main__":
