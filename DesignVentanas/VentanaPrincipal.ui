@@ -134,7 +134,7 @@ color: rgb(85, 170, 127);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/principal/user.jpg);</string>
+     <string notr="true">image: url(:/iconos/user.jpg);</string>
     </property>
     <property name="text">
      <string/>
@@ -150,7 +150,7 @@ color: rgb(85, 170, 127);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/principal/antibioticos.jpg);</string>
+     <string notr="true">image: url(:/iconos/antibioticos.jpg);</string>
     </property>
     <property name="text">
      <string/>
@@ -166,7 +166,7 @@ color: rgb(85, 170, 127);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/principal/factura.jpg);</string>
+     <string notr="true">image: url(:/iconos/factura.jpg);</string>
     </property>
     <property name="text">
      <string/>
@@ -182,7 +182,7 @@ color: rgb(85, 170, 127);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/principal/salir.jpg);</string>
+     <string notr="true">image: url(:/iconos/salir.jpg);</string>
     </property>
     <property name="text">
      <string/>
@@ -198,7 +198,7 @@ color: rgb(85, 170, 127);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/principal/plagas.jpg);</string>
+     <string notr="true">image: url(:/iconos/plagas.jpg);</string>
     </property>
     <property name="text">
      <string/>
