@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="iconos">
+    <file>antibioticos.jpg</file>
+    <file>factura.jpg</file>
+    <file>plagas.jpg</file>
+    <file>salir.jpg</file>
+    <file>user.jpg</file>
+    <file>user2.jpg</file>
+  </qresource>
+</RCC>
