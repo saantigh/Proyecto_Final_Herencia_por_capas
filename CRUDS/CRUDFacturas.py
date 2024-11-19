@@ -1,14 +1,14 @@
 from Modelo.factura import Factura 
-import CRUDAntibiotico
-import CRUDCliente
-import CRUDFertilizante
-import CRUDPlagas
+from CRUDS.CRUDAntibiotico import CRUDAntibiotico
+from CRUDS.CRUDCliente import CRUDCLiente
+from CRUDS.CRUDFertilizante import CRUDFertilizantes
+from CRUDS.CRUDPlagas import CRUDPlagas
 
 class CRUDfacturas:
     @staticmethod
     def create():
         plagas_disponibles = CRUDPlagas()
-        fertilizantes_disponibles = CRUDFertilizante()
+        fertilizantes_disponibles = CRUDFertilizantes()
         antibioticos_disponibles = CRUDAntibiotico()
 
         # Llamado al método 'create' de cada CRUD para obtener listas de productos disponibles
