@@ -65,10 +65,12 @@ class VentanaVentasControlador(QMainWindow):
         # Asocia el producto a la factura según su tipo
         if tipo == "antibiotico":
             self.factura_actual.realizar_venta(antibiotico=producto)
+            QMessageBox.information(self, "Producto agregado", f"Se ha agregado {producto.nombre_antibiotico} a la factura.")
         else:
             self.factura_actual.realizar_venta(producto_control=producto)
+            QMessageBox.information(self, "Producto agregado", f"Se ha agregado {producto.nombre_producto} a la factura.")
 
-        QMessageBox.information(self, "Producto agregado", f"Se ha agregado {producto.nombre_producto} a la factura.")
+        
 
     def finalizar_factura(self):
         """Asocia la factura al cliente y finaliza el proceso de facturación."""
